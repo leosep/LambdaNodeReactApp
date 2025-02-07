@@ -1,4 +1,4 @@
-# LambdaNodeReactApp (Full Stack CRUD App with Node.js (Express) and React)
+## LambdaNodeReactApp (Full Stack CRUD App with Node.js (Express) and React)
 
 This project is a full-stack CRUD application that combines a Node.js (Express) backend deployed to AWS Lambda and a React.js frontend. The application allows you to manage clients with operations like Add, Edit, and Delete. It's designed to be simple yet powerful for demonstrating how to combine modern web technologies with serverless functions.
 
