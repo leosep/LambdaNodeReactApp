@@ -1,0 +1,34 @@
+# Node.js backend (Express)
+backend/node_modules/
+backend/npm-debug.log
+backend/package-lock.json
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.test
+backend/.env.production
+
+# React frontend
+frontend/clients-crud-frontend/node_modules/
+frontend/clients-crud-frontend/build/
+frontend/clients-crud-frontend/.env
+frontend/clients-crud-frontend/.env.local
+frontend/clients-crud-frontend/.env.development
+frontend/clients-crud-frontend/.env.test
+frontend/clients-crud-frontend/.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional: If you're using IDEs like VS Code, you can add their configuration files to ignore as well:
+.vscode/
+.idea/
+
+# Optional: if you have any temporary files or folders from tests or builds
+dist/
+tmp/

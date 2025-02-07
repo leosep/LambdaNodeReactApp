@@ -1,0 +1,15 @@
+service: clients-crud-api
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http:
+          path: /{proxy+}
+          method: any
+plugins:
+  - serverless-offline
